@@ -181,19 +181,19 @@ div#main-content {
 }
 
 /* Curriculum Vitae table */
-div#main-content td {
-  font-size: 1em;
-  font-family: 'Karla', sans-serif;
-  padding-left: 1em;
+div#main-content td, div#main-content th {
+  font-size: 2.5em;
   vertical-align: top;
 }
 
+div#main-content td {
+  font-family: 'Karla', sans-serif;
+  padding-left: 1em;
+}
+
 div#main-content th {
-  font-size: 1em;
   font-family: 'Abhaya Libre', serif;
-  font-size: larger;
   text-align: right;
-  vertical-align: top;
 }
 
 
