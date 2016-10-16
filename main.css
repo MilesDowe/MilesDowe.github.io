@@ -118,7 +118,8 @@ header div.navigation {
 
 header div.navigation ul {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 header div.navigation li {
@@ -147,8 +148,6 @@ header div.navigation li:hover {
 
 header a {
   color: rgba(224, 226, 149, 0.81);
-  margin-right: 0.1em;
-  margin-left: 0.1em;
 }
 
 header ul {
