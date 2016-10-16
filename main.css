@@ -25,7 +25,7 @@ header, footer {
 }
 header {
   order: 1;
-  flex: 2 1;
+  flex: 2 1 auto;
 
   align-content: center;
 
@@ -40,7 +40,7 @@ div#main-content {
 footer {
   align-content: center;
   order: 3;
-  flex: 1 1;
+  flex: 1 1 auto;
 
   -webkit-box-shadow: 0px -6px 33px -6px rgba(0,0,0,0.52);
   -moz-box-shadow: 0px -6px 33px -6px rgba(0,0,0,0.52);
@@ -122,12 +122,11 @@ header div.navigation ul {
 }
 
 header div.navigation li {
-  flex: 1 1;
+  flex: 1 1 auto;
 
   padding: 0.5em;
 
   list-style-type: none;
-
   text-align: center;
 }
 
@@ -158,13 +157,14 @@ header ul {
 }
 
 
-@media all and (max-width: 714px) {
+@media screen and (max-width: 714px) {
   .header-section.navigation {
     font-size: 0.9em;
+    margin-bottom: 0.5em;
   }
 }
 
-@media all and (max-width: 686px) {
+@media screen and (max-width: 686px) {
   header h1.miles-title {
     font-size: 3em;
   }
