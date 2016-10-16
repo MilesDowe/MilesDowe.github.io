@@ -70,8 +70,12 @@ h3 {
 }
 
 p {
+  margin-top: 0.4em;
   font-family: 'Karla', sans-serif;
-  margin-bottom: 1em;
+}
+
+h2, h3 {
+  margin-top: 1.2em;
 }
 
 h2, h3, div#main-content p {
@@ -157,7 +161,13 @@ header ul {
 
 @media all and (max-width: 714px) {
   .header-section.navigation {
-    display: none;
+    font-size: 0.9em;
+  }
+}
+
+@media all and (max-width: 476px) {
+  header h1.miles-title {
+    font-size: 3em;
   }
 }
 
@@ -166,13 +176,14 @@ header ul {
 /*===========================================*/
 
 div#main-content {
-  padding: 2em;
+  padding: 0 2 0 2em;
 }
 
 /* Curriculum Vitae table */
 div#main-content td {
   font-family: 'Karla', sans-serif;
   padding-left: 1em;
+  vertical-align: top;
 }
 
 div#main-content th {
