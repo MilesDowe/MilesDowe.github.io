@@ -1,4 +1,4 @@
-// Begin personalized CSS
+/* Begin personalized CSS */
 * {
   margin: 0;
   padding: 0;
@@ -60,18 +60,18 @@ h1 {
 }
 
 h2 {
-  margin-top: 1em;
-  margin-bottom: -0.5em;
+  margin-top: 0.25em;
   font-size: 2em;
 }
 
 h3 {
+  font-size: 1.6em;
   margin-top: 1em;
-  margin-left: 0.19em;
 }
 
 p {
   font-family: 'Karla', sans-serif;
+  margin-bottom: 1em;
 }
 
 h2, h3, div#main-content p {
@@ -87,9 +87,9 @@ a:hover {
   color: #ffe1a4;
 }
 
-//===========================================
-// End general layout, begin header
-//===========================================
+/*===========================================*/
+/* End general layout, begin header          */
+/*===========================================*/
 
 header div.header-section {
   align-self: auto;
@@ -129,15 +129,15 @@ header div.navigation li {
 }
 
 header div.navigation li:hover {
-  background-color: #3a3134;//#503d3c;
+  background-color: #3a3134;
 
-  // rounded edges
+  /* rounded edges */
   -moz-border-radius:    4px;
   -webkit-border-radius: 4px;
   border-radius:         4px;
   -khtml-border-radius:  4px;
 
-  // inset shadows
+  /* inset shadows */
   -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.1);
   -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
   box-shadow:         inset 0 0 10px rgba(0,0,0,0.1);
@@ -145,7 +145,6 @@ header div.navigation li:hover {
 
 header a {
   color: rgba(224, 226, 149, 0.81);
-//  color: #fdffa6;
   margin-right: 0.1em;
   margin-left: 0.1em;
 }
@@ -162,17 +161,31 @@ header ul {
   }
 }
 
-//===========================================
-// End header, begin main content
-//===========================================
+/*===========================================*/
+/* End header, begin main content            */
+/*===========================================*/
 
 div#main-content {
   padding: 2em;
 }
 
-//===========================================
-// End main content, begin footer
-//===========================================
+/* Curriculum Vitae table */
+div#main-content td {
+  font-family: 'Karla', sans-serif;
+  padding-left: 1em;
+}
+
+div#main-content th {
+  font-family: 'Abhaya Libre', serif;
+  font-size: larger;
+  text-align: right;
+  vertical-align: top;
+}
+
+
+/*===========================================*/
+/* End main content, begin footer            */
+/*===========================================*/
 
 footer div p {
   color: #bfbebc;
