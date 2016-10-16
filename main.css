@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 0.25em;
+  margin-top: 1.2em;
   font-size: 2em;
 }
 
@@ -68,16 +68,13 @@ h3 {
   font-size: 1.6em;
   font-weight: normal;
   font-family: 'Karla', sans-serif;
+  margin-top: 0.8em;
 }
 
 p {
-  margin-top: 0.4em;
   font-family: 'Karla', sans-serif;
 }
 
-h2, h3 {
-  margin-top: 1.2em;
-}
 
 h2, h3, div#main-content p {
   color: #3e3a3a;
