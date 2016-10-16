@@ -177,8 +177,12 @@ header ul {
     padding: 0 0.4 0 0.4em;
   }
 
-  div#main-content td {
+  div#main-content td, div#main-content th{
     display: block;
+  }
+
+  div#main-content th {
+    text-align: left !important;
   }
 }
 
