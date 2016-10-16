@@ -36,8 +36,6 @@ header {
 div#main-content {
   order: 2;
   flex: 7 1;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
 }
 footer {
   align-content: center;
@@ -175,9 +173,16 @@ header ul {
 /*===========================================*/
 /*       End header, begin main content      */
 /*===========================================*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  div#main-content {
+    padding: 0 0.4 0 0.4em;
+  }
+}
 
-div#main-content {
-  padding: 0 2 0 2em;
+@media only screen and (min-device-width : 480px) {
+  div#main-content {
+    padding: 0 1.25 0 1.25em;
+  }
 }
 
 /* Curriculum Vitae table */
