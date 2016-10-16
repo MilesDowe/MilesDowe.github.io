@@ -30,8 +30,8 @@ header {
   align-content: center;
 
   -webkit-box-shadow: 0px 6px 33px -6px rgba(0,0,0,0.52);
-  -moz-box-shadow: 0px 6px 33px -6px rgba(0,0,0,0.52);
-  box-shadow: 0px 6px 33px -6px rgba(0,0,0,0.52);
+  -moz-box-shadow:    0px 6px 33px -6px rgba(0,0,0,0.52);
+  box-shadow:         0px 6px 33px -6px rgba(0,0,0,0.52);
 }
 div#main-content {
   order: 2;
@@ -42,7 +42,6 @@ footer {
   order: 3;
   flex: 1 1 auto;
 
-  margin-top: 2em;
   padding-bottom: 2em;
 
   -webkit-box-shadow: 0px -6px 33px -6px rgba(0,0,0,0.52);
@@ -147,11 +146,13 @@ header div.navigation li:hover {
 }
 
 header a {
-  color: rgba(224, 226, 149, 0.81);
+  color: rgb(220, 200, 164);
 }
-header h1 a {
+
+header h1 a, header h1 a:hover {
   color: #bfbebc;
 }
+
 header ul {
   padding: 0px;
   margin: 0px;
@@ -174,9 +175,14 @@ header ul {
 /*===========================================*/
 /*       End header, begin main content      */
 /*===========================================*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+span.hidden-symbol {
+  display: none;
+  font-size: large;
+}
+
+@media only screen and (max-width : 480px) {
   div#main-content {
-    padding: 0 0.4 0 0.4em;
+    padding: 0 0.4em 2.4em 0.4em;
   }
 
   div#main-content td, div#main-content th{
@@ -185,12 +191,17 @@ header ul {
 
   div#main-content th {
     text-align: left !important;
+    margin-top: 0.5em;
+  }
+
+  span.hidden-symbol {
+    display: inline;
   }
 }
 
-@media only screen and (min-device-width : 480px) {
+@media only screen and (min-width : 480px) {
   div#main-content {
-    padding: 0 1.25 0 1.25em;
+    padding: 0 1.25em 3em 1.25em;
   }
 }
 
@@ -206,7 +217,7 @@ div#main-content td {
 
 div#main-content th {
   font-family: 'Abhaya Libre', serif;
-  text-align: right;
+  text-align: left;
 }
 
 
