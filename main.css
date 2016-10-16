@@ -181,6 +181,10 @@ div#main-content {
 }
 
 /* Curriculum Vitae table */
+table p {
+  font-size: 2.4em;
+}
+
 div#main-content td, div#main-content th {
   vertical-align: top;
 }
