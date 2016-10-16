@@ -66,7 +66,8 @@ h2 {
 
 h3 {
   font-size: 1.6em;
-  margin-top: 1em;
+  font-weight: normal;
+  font-family: 'Karla', sans-serif;
 }
 
 p {
@@ -92,7 +93,7 @@ a:hover {
 }
 
 /*===========================================*/
-/* End general layout, begin header          */
+/*      End general layout, begin header     */
 /*===========================================*/
 
 header div.header-section {
@@ -165,14 +166,14 @@ header ul {
   }
 }
 
-@media all and (max-width: 476px) {
+@media all and (max-width: 686px) {
   header h1.miles-title {
     font-size: 3em;
   }
 }
 
 /*===========================================*/
-/* End header, begin main content            */
+/*       End header, begin main content      */
 /*===========================================*/
 
 div#main-content {
@@ -195,7 +196,7 @@ div#main-content th {
 
 
 /*===========================================*/
-/* End main content, begin footer            */
+/*      End main content, begin footer       */
 /*===========================================*/
 
 footer div p {
