@@ -70,9 +70,13 @@ h3 {
   font-family: 'Karla', sans-serif;
 }
 
+p, th, tr {
+  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+}
+
 p {
   margin-top: 0.4em;
-  font-family: 'Karla', sans-serif;
 }
 
 h2, h3 {
