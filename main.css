@@ -149,7 +149,9 @@ header div.navigation li:hover {
 header a {
   color: rgba(224, 226, 149, 0.81);
 }
-
+header h1 a {
+  color: #bfbebc;
+}
 header ul {
   padding: 0px;
   margin: 0px;
