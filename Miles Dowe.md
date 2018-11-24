@@ -10,7 +10,7 @@ Instead, I hope to use it as a platform for... blogging? Posting drawings? Maybe
 
 I originally wrote up my own HTML and CSS for this page, but it is too much of a hassle for something so small. It's a good thing to stand out, but the return on my time investment wasn't worth it. I like the simplicity of a *Markdown* document and I really love the [Typora](https://typora.io/) text editor, so I am using it to generate this HTML.
 
-## Personal Interests
+## Personal interests
 
 I am a software developer, an amateur cartoonist, and an aspiring <em>Vim</em> superuser. I'm usually the quiet one in a team of people, but am very amiable and happy to take time helping others.
 
