@@ -1,29 +1,37 @@
-# The webpage of Miles Dowe
+# Miles Dowe
 
 ## Introduction
 
 Hello and welcome!
 
-I was originally using this space to reiterate my working and academic history, but those are already available on [several](https://www.linkedin.com/in/miles-dowe-26b33067) [sites](https://www.stackoverflow.com/cv/milesdowe) that I keep fairly up-to-date.  You can also [grab a PDF of my resume here](./content/miles_dowe_resume.pdf).
+I haven’t figured out what exactly I’ll be using this site for. Professional details are already available on [several](https://www.linkedin.com/in/miles-dowe-26b33067) [sites](https://www.stackoverflow.com/cv/milesdowe) that I keep mostly up-to-date.
 
-Instead, I hope to use it as a platform for... blogging? Posting drawings? Maybe as a place to host some experimental web development projects. I haven't quite decided.
+I could use this as a platform for blogging? Posting drawings? I haven't figured it out yet. It’s tricky to be interesting, but I’ll *someday* make content that’s worthwhile.
 
-I originally wrote up my own HTML and CSS for this page, but it is too much of a hassle for something so small. It's a good thing to stand out, but the return on my time investment wasn't worth it. I like the simplicity of a *Markdown* document and I really love the [Typora](https://typora.io/) text editor, so I am using it to generate this HTML.
+Also, if the style of this site is familiar, it’s because I’m using the [Typora](https://typora.io/) text editor to generate this HTML. A todo of mine is to make a custom CSS for it.
 
 ## Personal interests
 
-I am a software developer, an amateur cartoonist, and an aspiring <em>Vim</em> superuser. I'm usually the quiet one in a team of people, but am very amiable and happy to take time helping others.
+I am a software developer, an amateur cartoonist, and an aspiring *Vim* superuser.
 
-## Additional info
+![A doodle](./content/junk.png)
 
-Check out projects I contribute to:
+## Other info
+
+### Open source
+
+If I contribute to any software projects, you can find details here:
 
 - [My GitHub](https://github.com/MilesDowe)
 - [CITW GitHub](https://github.com/citwild)
 
-Let me re-link the CV sites where I post my work history:
+### CV’s and such
+
+Here are the sites where I post my work history:
 
 - https://www.linkedin.com/in/miles-dowe-26b33067
 - https://www.stackoverflow.com/cv/milesdowe
+
+You can [grab a PDF of my resume here](./content/miles_dowe_resume.pdf).
 
 And of course, you are more than welcome to [reach out by emailing me](mailto:milesdowe@gmail.com).
