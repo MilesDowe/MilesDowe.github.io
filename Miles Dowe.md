@@ -1,37 +1,37 @@
-# Miles Dowe
-
-## Introduction
+# Miles’s Site
 
 Hello and welcome!
 
-I haven’t figured out what exactly I’ll be using this site for. Professional details are already available on [several](https://www.linkedin.com/in/miles-dowe-26b33067) [sites](https://www.stackoverflow.com/cv/milesdowe) that I keep mostly up-to-date.
+I haven’t figured out what exactly I’ll be using this site for. [Maybe music recommendations](./rad_music.html)? My professional details are already available on a [couple](https://www.linkedin.com/in/miles-dowe-26b33067) [sites](https://www.stackoverflow.com/cv/milesdowe) I keep up-to-date.
 
-I could use this as a platform for blogging? Posting drawings? I haven't figured it out yet. It’s tricky to be interesting, but I’ll *someday* make content that’s worthwhile.
+There’s not much going on ‘round these parts, but I’m happy you’re here anyway.
 
-Also, if the style of this site is familiar, it’s because I’m using the [Typora](https://typora.io/) text editor to generate this HTML. A todo of mine is to make a custom CSS for it.
+## Background
 
-## Personal interests
+I develop web services at work and I sometimes draw cartoons at home.
 
-I am a software developer, an amateur cartoonist, and an aspiring *Vim* superuser.
+<img src="./content/junk.png" alt="A doodle" width=25% />
 
-![A doodle](./content/junk.png)
+## Links
 
-## Other info
+### Code stuff
 
-### Open source
-
-If I contribute to any software projects, you can find details here:
+<img src="./content/code.png" alt="code" width=20% />
 
 - [My GitHub](https://github.com/MilesDowe)
 - [CITW GitHub](https://github.com/citwild)
 
-### CV’s and such
+### Work stuff
 
-Here are the sites where I post my work history:
+<img src="./content/resume.png" alt="resume" width=20% />
 
-- https://www.linkedin.com/in/miles-dowe-26b33067
-- https://www.stackoverflow.com/cv/milesdowe
+- [LinkedIn thing](https://www.linkedin.com/in/miles-dowe-26b33067)
+- [StackOverflow thing](https://www.stackoverflow.com/cv/milesdowe)
+- [And a resume](./content/miles_dowe_resume.pdf)
 
-You can [grab a PDF of my resume here](./content/miles_dowe_resume.pdf).
+## Contact
 
-And of course, you are more than welcome to [reach out by emailing me](mailto:milesdowe@gmail.com).
+My [email is here](mailto:milesdowe@gmail.com). I’ll do my best to answer promptly.
+
+<img src="./content/mail.png" alt="mail" width=15%/>
+
